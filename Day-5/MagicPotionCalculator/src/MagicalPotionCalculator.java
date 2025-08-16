@@ -1,4 +1,4 @@
-public class MagicPotionCalculator {
+public class MagicalPotionCalculator {
     public static void main(String[] args) {
         int magicalEssence = 5;
         int dragonScale = 3;
