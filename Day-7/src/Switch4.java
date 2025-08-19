@@ -33,32 +33,33 @@ public class Switch4 {
         String season = seasoning.nextLine();
 
         season = season.toLowerCase();
-
+        while(true){
         switch (season){
             case "spring":
                 System.out.println("The flower are blooming how nice!");
-                break;
+                continue;
 
             case "summer":
                 System.out.println("It's sunny and hot, time for the beach!");
-                break;
+                continue;
 
             case "fall":
                 System.out.println("Leaves are falling, it's windy!");
-                break;
+                continue;
 
             case "autumn":
                 System.out.println("Leaves are falling, it's windy!");
-                break;
+                continue;
 
             case "winter":
                 System.out.println("Cold and Snowy, let's build a snow man!");
-                break;
+                continue;
 
             default:
                 System.out.println("I have never heard of this Season before!");
                 break;
+            }
+            seasoning.close();
         }
-        seasoning.close();
     }
 }
