@@ -1,4 +1,4 @@
-public class Enum1 {
+public class Switch5 {
     public enum Day{
         MONDAY, TUESDAY, WEDNESDAY,
         THURSDAY, FRIDAY, SATURDAY, SUNDAY
